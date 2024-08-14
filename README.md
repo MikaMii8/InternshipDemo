@@ -47,7 +47,7 @@ To run the bot, simply open the `Test.ipynb` notebook in Jupyter or any compatib
 
 ## Notes
 
-- **References**: All relevant references, including the Kaggle dataset and any other sources, are cited within the `Test.ipynb` notebook.
+- **References**: (https://docs.llamaindex.ai/en/stable/examples/agent/openai_agent_with_query_engine/).
 - **Costs**: Using the OpenAI API for this bot is very affordable, with minimal costs involved.
 
 Happy coding!
