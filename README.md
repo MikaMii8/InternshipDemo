@@ -1,4 +1,4 @@
-# Taylor Swift Q&A Bot - README
+# Taylor Swift Q&A Bot
 
 ## Overview
 Welcome! This repository contains a simple Question-and-Answer (Q&A) bot built using the Retrieval-Augmented Generation (RAG) approach. The bot utilizes Taylor Swift's song lyrics to answer questions, making it a fun and unique way to interact with her discography.
