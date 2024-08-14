@@ -3,7 +3,7 @@
 ## Overview
 Welcome! This repository contains a simple Question-and-Answer (Q&A) bot built using the Retrieval-Augmented Generation (RAG) approach. The bot utilizes Taylor Swift's song lyrics to answer questions, making it a fun and unique way to interact with her discography.
 
-The dataset used for this project can be found on Kaggle: [Taylor Swift Songs] (https://www.kaggle.com/datasets/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums).
+The dataset used for this project can be found on Kaggle: (https://www.kaggle.com/datasets/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums).
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ The dataset used for this project can be found on Kaggle: [Taylor Swift Songs] (
 Before you start, make sure you have the following:
 
 1. **Dataset**: Download the `lyrics.csv` file from the Kaggle dataset linked above.
-2. **API Key**: Obtain your OpenAI API key from [OpenAI API Settings] (https://platform.openai.com/settings/profile?tab=api-keys).
+2. **API Key**: Obtain your OpenAI API key from: (https://platform.openai.com/settings/profile?tab=api-keys).
 3. **Python Packages**: Install the necessary Python packages listed in the `requirements.txt` file.
 
 ### Installation
