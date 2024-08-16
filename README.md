@@ -40,7 +40,7 @@ This repository contains the implementation of a Q&A bot designed to interact wi
 1. **Data Preparation**
 2. **Q&A Bot Deployment**
 
-## 1. Data Preparation (`data_prep_demo.ipynb`)
+### 1. Data Preparation (`data_prep_demo.ipynb`)
 
 The data preparation process is essential to ensure that the lyrics dataset is properly formatted and ready for use by the RAG agent.
 
@@ -48,7 +48,7 @@ The data preparation process is essential to ensure that the lyrics dataset is p
 1. Open the `data_prep_demo.ipynb` notebook in Jupyter or any compatible environment.
 2. Execute all the cells sequentially. This will process the lyrics dataset and prepare it for the Q&A bot.
 
-## 2. Running the Q&A Bot (`QandA.py`)
+### 2. Running the Q&A Bot (`QandA.py`)
 
 The `QandA.py` file provides a more advanced version of the Q&A bot, implemented with Streamlit for a better user experience and improved response quality.
 
