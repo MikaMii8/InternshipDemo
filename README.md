@@ -35,18 +35,31 @@ Before you start, make sure you have the following:
 
 ## Usage
 
-The main logic of the Q&A bot is implemented in the first part of the `data_prep_demo.ipynb` notebook. This notebook is divided into two key parts:
+This repository contains the implementation of a Q&A bot designed to interact with a lyrics dataset using a Retrieval-Augmented Generation (RAG) model. The bot is developed in two main parts:
 
-1. **Data Preparation**:
-   - The first part of the notebook processes the lyrics dataset to prepare it for use by the RAG agent.
+1. **Data Preparation**
+2. **Q&A Bot Deployment**
 
-2. **RAG Agent**:
-   - The second part implements the RAG-based Q&A bot that interacts with the processed lyrics data.
+## 1. Data Preparation (`data_prep_demo.ipynb`)
 
-To run the bot, simply open the `data_prep_demo.ipynb` notebook in Jupyter or any compatible environment, and execute the cells sequentially.
+The data preparation process is essential to ensure that the lyrics dataset is properly formatted and ready for use by the RAG agent.
 
-The python file `QandA.py` implements a bettter bot and uses streamlit. This bot has better responsses. Too run this first implement the data preparation or part 1 of the data prep demo file an dthen run this Qand A file in an integrated terminal with the command streamlut run QandA.py
+### Steps:
+1. Open the `data_prep_demo.ipynb` notebook in Jupyter or any compatible environment.
+2. Execute all the cells sequentially. This will process the lyrics dataset and prepare it for the Q&A bot.
 
+## 2. Running the Q&A Bot (`QandA.py`)
+
+The `QandA.py` file provides a more advanced version of the Q&A bot, implemented with Streamlit for a better user experience and improved response quality.
+
+### Steps:
+1. Ensure that you have completed the data preparation by running `data_prep_demo.ipynb` as described above.
+2. Open an integrated terminal in your development environment.
+3. Run the Q&A bot with the following command:
+   ```bash
+   streamlit run QandA.py
+   ```
+   
 ## Notes
 
 - **References**: (https://docs.llamaindex.ai/en/stable/examples/agent/openai_agent_with_query_engine/).
