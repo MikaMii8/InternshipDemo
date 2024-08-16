@@ -1,7 +1,7 @@
-# Taylor Swift Q&A Bot
-
+# Taylor Swift Q&A Bot 
 ## Overview
-Welcome! This repository contains a simple Question-and-Answer (Q&A) bot built using the Retrieval-Augmented Generation (RAG) approach. The bot utilizes Taylor Swift's song lyrics to answer questions, making it a fun and unique way to interact with her discography.
+Welcome! This repository contains a simple Question-and-Answer (Q&A) bot built using the Retrieval-Augmented Generation (RAG) approach. The bot utilizes Taylor Swift's song lyrics to answer questions, making it a fun and unique way to interact with her discography. 
+Link to project: (https://github.com/MikaMii8/InternshipDemo/tree/main)
 
 The dataset used for this project can be found on Kaggle: (https://www.kaggle.com/datasets/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums).
 
