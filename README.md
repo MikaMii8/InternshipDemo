@@ -35,7 +35,7 @@ Before you start, make sure you have the following:
 
 ## Usage
 
-The main logic of the Q&A bot is implemented in the `Test.ipynb` notebook. This notebook is divided into two key parts:
+The main logic of the Q&A bot is implemented in the first part of the `data_prep_demo.ipynb` notebook. This notebook is divided into two key parts:
 
 1. **Data Preparation**:
    - The first part of the notebook processes the lyrics dataset to prepare it for use by the RAG agent.
@@ -43,7 +43,9 @@ The main logic of the Q&A bot is implemented in the `Test.ipynb` notebook. This 
 2. **RAG Agent**:
    - The second part implements the RAG-based Q&A bot that interacts with the processed lyrics data.
 
-To run the bot, simply open the `Test.ipynb` notebook in Jupyter or any compatible environment, and execute the cells sequentially.
+To run the bot, simply open the `data_prep_demo.ipynb` notebook in Jupyter or any compatible environment, and execute the cells sequentially.
+
+The python file `QandA.py` implements a bettter bot and uses streamlit. This bot has better responsses. Too run this first implement the data preparation or part 1 of the data prep demo file an dthen run this Qand A file in an integrated terminal with the command streamlut run QandA.py
 
 ## Notes
 
